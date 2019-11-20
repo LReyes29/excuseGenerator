@@ -6,7 +6,6 @@ var when = ["yesterday", "last month", "two weeks ago", "last night", "on Monday
 
 
 function excuse(){
-
 var sentence =[];
 var valuePosition=0;
 
@@ -23,6 +22,6 @@ valuePosition= Math.floor(Math.random()*6);
 sentence.push(when[valuePosition]);
 
 document.write(sentence[0]+" "+sentence[1]+" "+sentence[2]+" "+sentence[3]);
-
 }
+
 
